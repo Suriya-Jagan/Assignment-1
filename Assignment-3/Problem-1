@@ -1,1 +1,5 @@
-
+def sum_of_list(list1):
+    sumoflist = sum(list1)
+    return sumoflist
+x = [10,20,30,40]
+print(sum_of_list(x))
