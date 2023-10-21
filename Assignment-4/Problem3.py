@@ -10,3 +10,4 @@ for i in input_list:
     i = int(i)
     l.append(i)
 Squared = list(map(lambda i:i**2, l))
+print(Squared)
