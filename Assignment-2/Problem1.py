@@ -8,14 +8,11 @@ for i in range(1, tuples+1):
     l2 = []
     tup = input(f"Enter the 1st ele in tuple for list {i}: ")
     tup1 = input(f"Enter the 2nd ele in tuple for list {i}: ")
-    l2.append(tup)
-    l2.append(tup1)
-    l3 = tuple(l2)
-    l.append(l3)
+    t = (tup,tup1)
+    l.append(t)
     
 for i in range(len(l)):
     for j in range(i+1, len(l)):
         if l[i][1] > l[j][1]:
             l[i], l[j] = l[j], l[i]
 print(l)
-print(len(l))
